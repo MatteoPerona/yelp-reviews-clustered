@@ -1,0 +1,106 @@
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.left_plot {
+    margin: auto;
+    text-align: left;
+}
+
+.section {
+    text-align: center;
+}
+
+/* .tooltip {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    pointer-events: none;
+    background-color: antiquewhite;
+    border: solid;
+    border-color: black;
+} */
+
+.tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: #000;
+    color: #fff;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.business_dropdown {
+    display: flow-root;
+}
+
+.container {}
+
+
+
+/* Reset default margin and padding for all elements  */
+* {
+    margin: 20;
+    padding: 10;
+}
+
+/* Set a base font size and line height */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Style for page titles */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* Style for paragraphs */
+p {
+    margin-bottom: 1em;
+}
+
+/* Style for links */
+a {
+    color: #007bff;
+    /* Adjust link color as needed */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
